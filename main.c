@@ -10,6 +10,7 @@ int main(int argc, char **argv){
     }
     
     openFile(&fp,argv[1]);
+    show(fp);
     fclose(fp);
 
     return 0;
